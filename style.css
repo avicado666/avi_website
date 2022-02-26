@@ -1,0 +1,61 @@
+/* 
+F5A628 - yellow
+ED1C24 - red
+*/
+
+body {
+    background-color: #F5A628;
+    }
+
+p.fname {
+    color: #000000;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 120px; 
+    font-style: italic; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    letter-spacing: 12px;
+    } 
+p.lname {
+    color: #F5A628;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+    font-size: 120px; 
+    font-style: italic; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    -webkit-text-stroke: 0.5px black;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    letter-spacing: 12px;
+   
+    
+    } 
+
+
+    .container {
+  height: 300px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  border: 4px solid red;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  border: 4px solid darkslategray;
+  background: skyblue;
+}
+
+.names {
+    display: flex;
+    justify-content: left;
+    gap: 18px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+    
